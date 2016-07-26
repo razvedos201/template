@@ -5,90 +5,87 @@ body, a {
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
 
 }
 
-#container{
+#container {
     outline: 1px solid red;
 
-
 }
-#main{
+
+#main {
     outline: 1px solid green;
     width: 980px;
     margin: 0 auto;
 }
-#content{
+
+#content {
     outline: 1px solid hotpink;
     width: 730px;
-    float:left;
+    float: left;
 }
 
-#sidebar{
+#sidebar {
     outline: 1px solid firebrick;
     width: 230px;
     margin-right: 15px;
-    float:left;
+    float: left;
 
 }
-#footer{
+
+#footer {
     outline: 1px solid gold;
     height: 80px;
     width: 980px;
     margin: 0 auto;
 
 }
+
 /***************************** header  ***************************************/
 #header_top_wrapper {
 
-
-
 }
-#header_top{
+
+#header_top {
     height: 200px;
     width: 980px;
     margin: 0 auto;
     background: url(../images/header_bg.png) no-repeat center top;
-
 
 }
 
 #header_bottom_wrapper {
     background: url(../images/stmn.png) repeat-x center top;
 
-
-
-
-
-
 }
 
-
-#header_bottom{
-
+#header_bottom {
 
     width: 980px;
     margin: 0 auto;
     height: 60px;
 
-
 }
-#header_top_left{
+
+#header_top_left {
     width: 490px;
     float: left;
+    margin-top: 45px;
 }
-#header_top_right{
+
+#header_top_right {
     width: 490px;
-    float:left;
+    float: left;
+    margin-top: 70px;
 }
+
 #main_menu {
 
 }
 
 #main_menu ul {
     list-style: none;
-
 
 }
 
@@ -99,10 +96,69 @@ a {
 
 #main_menu ul li a {
 
+    line-height: 60px;
+    color: #0c6db4;
 }
 
+#search {
+
+}
+
+#search form {
+
+}
+
+#search input {
+    width: 253px;
+    height: 23px;
+    border: 1px solid gray;
+    float: right;
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#logo img {
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#logo {
+    margin-left: 55px;
+}
+
+#logo_title p {
+    color: #0c6db4;
+}
+#contacts_wrapper{
+    float:right;
+}
+#contacts_wrapper p{
+    text-align: right;
+    margin-bottom: 13px;
+}
+#phone{
 
 
+}
+#email{
+    color: #0c6db4;
+
+}
+#address{
+    color: #0c6db4;
+    font-size: 12px;
+}
 /***************************** foooter  ***************************************/
 
 
