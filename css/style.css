@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Trebuchet MS; /* Имя шрифта */
+    src: url(../fonts/trebuchet.ttf); /* Путь к файлу со шрифтом */
+}
 body, a {
     font-family: Trebuchet MS;
     color: #000;
