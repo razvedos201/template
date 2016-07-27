@@ -25,20 +25,17 @@ a {
 }
 
 #main {
-    outline: 1px solid hotpink;
     width: 980px;
     margin: 0 auto;
     padding-bottom: 80px;
 }
 
 #content {
-    outline: 1px solid hotpink;
     width: 730px;
     float: left;
 }
 
 #sidebar {
-    outline: 1px solid firebrick;
     width: 230px;
     margin-right: 15px;
     float: left;
@@ -120,12 +117,16 @@ a {
 }
 
 #search input {
-    width: 253px;
-    height: 23px;
-    border: 1px solid gray;
+    width: 216px;
+    height: 27px;
     float: right;
     border-radius: 5px;
     margin-top: 17px;
+    border: 1px solid #b9b9b9;
+    font-size: 11px;
+    background: url('../images/search_icon.png') no-repeat 8px 50%;
+    padding: 0 0 0 34px;
+    margin-right: 20px;
 }
 
 @keyframes rotate {
@@ -173,6 +174,8 @@ a {
 #address {
     color: #0c6db4;
     font-size: 12px;
+    padding-right: 20px;
+    background: url('../images/address_icon.png') no-repeat 100% 0;
 }
 
 /***************************** footer  ***************************************/
@@ -201,12 +204,11 @@ a {
 /**************************************content***************************************/
 #content_top {
     float: left;
-    outline: 1px solid darkgreen;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
 #content_bottom {
-    outline: 1px solid red;
     height: 430px;
     float: left;
     width: 730px;
@@ -214,16 +216,30 @@ a {
 }
 
 #content_top div {
-    width: 168px;
+    width: 153px;
     height: 150px;
     float: left;
-    overflow: hidden;
-    margin-left: 5px;
-    margin-top: 20px;
-    margin-right: 5px;
-    border: 1px solid gray;
+    padding: 8px 9px;
+    margin:0 10px 0px 0;
+    background: url(../images/img_bg.png)no-repeat;
+    text-align: center;
+    vertical-align: middle;
 }
 
+#content_top div a img{
+
+
+
+    max-width: 100%;
+    max-height: 100%;
+}
+#content_top div a p{
+    padding: 5px 0 0 0;
+    font-size: 11px;
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 10px;
+}
 #news_title {
     height: 32px;
     background: url("../images/news_bg.png") no-repeat center top;
@@ -240,11 +256,13 @@ a {
     float: left;
     margin-left: 10px;
     margin-top: 25px;
+    font-size: 12px;
 }
 
 #news_wrapper div p {
     color: #0c6db4;
     padding-bottom: 5px;
+
 }
 
 #news_wrapper div a {
@@ -252,6 +270,7 @@ a {
     color: #0c6db4;
     padding-top: 20px;
     display: block;
+    font-size: 12px;
 }
 
 /*******************sidebar*********************************************************/
@@ -267,7 +286,9 @@ a {
 #sidebar_bottom{
 
 }
-
+#sidebar_top ul li{
+    padding-left: 5px;
+}
 #sidebar_top ul li:nth-child(odd){
     background-color: #aed4eb;
 }
@@ -278,6 +299,7 @@ a {
     background: url(../images/left_side_bg_blue.png) no-repeat center top;
     font-size: 16px;
     color: #fff;
+    margin-top: 20px;
 
 }
 #sidebar_top ul li[id='sidebar_menu'] span{
