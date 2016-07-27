@@ -106,8 +106,11 @@ a {
 
     line-height: 60px;
     color: #0c6db4;
+    display: block;
 }
-
+#main_menu ul li a:hover{
+    background: url('../images/stmo.png')repeat-x;
+}
 #search {
 
 }
@@ -313,12 +316,25 @@ a {
     list-style-type: none;
 
 
+
 }
 #sidebar_top ul li a{
     color: #0c6db4;
     font-size: 12px;
+    /*
     background: url(../images/side_treug.png)no-repeat center left;
-    padding-left: 15px;
+    */
+    padding-left: 1px;
+    display: block;
+    height: 40px;
+    text-align: left;
+}
+#sidebar_top .arrow:before{
+    content: "\25b6";
+    color: gray;
+    font-size: 10px;
+
+
 }
 
 #sidebar_bottom iframe{
