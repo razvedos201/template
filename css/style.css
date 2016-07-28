@@ -228,7 +228,9 @@ a {
     text-align: center;
     vertical-align: middle;
 }
-
+#content_top div a{
+    display: block;
+}
 #content_top div a img{
 
 
@@ -291,6 +293,7 @@ a {
 }
 #sidebar_top ul li{
     padding-left: 5px;
+    padding-top: 4px;
 }
 #sidebar_top ul li:nth-child(odd){
     background-color: #aed4eb;
@@ -303,12 +306,14 @@ a {
     font-size: 16px;
     color: #fff;
     margin-top: 20px;
+    height: 35px;
 
 }
 #sidebar_top ul li[id='sidebar_menu'] span{
-    padding-left: 70px;
-    padding-top: 7px;
+    padding-left: 60px;
+    padding-top: 3px;
     display: block;
+
 }
 #sidebar_top ul li{
     width: 230px;
@@ -321,21 +326,29 @@ a {
 #sidebar_top ul li a{
     color: #0c6db4;
     font-size: 12px;
-    /*
-    background: url(../images/side_treug.png)no-repeat center left;
-    */
-    padding-left: 1px;
+
+    background: url(../images/side_treug.png)no-repeat 0% 8%;
+    padding-left: 10px;
     display: block;
     height: 40px;
     text-align: left;
+
 }
-#sidebar_top .arrow:before{
+#sidebar_top ul li a:hover{
+    color: #fff;
+}
+#sidebar_top ul li:hover{
+    background-color: #0c6db4;
+}
+
+/*стрелка*/
+/*#sidebar_top .arrow:before{
     content: "\25b6";
     color: gray;
     font-size: 10px;
 
-
-}
+    position: absolute;
+}*/
 
 #sidebar_bottom iframe{
     width: 230px;
